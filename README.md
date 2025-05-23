@@ -19,9 +19,9 @@ Seja bem-vindo(a) ao meu portfólio! Aqui você encontrará informações sobre 
 
 ## 🔗 Acesse
 
-👉 [Acesse meu portfólio](https://www.gabrielperes.site/)
+👉 <a href="https://www.gabrielperes.site/" target="_blank" rel="noopener noreferrer">Acesse meu portfólio</a>
 
 ## 📧 Contato
 
 - Email: gperes020@gmail.com  
-- LinkedIn: [Meu LinkedIn](https://www.linkedin.com/in/gabriel-peres-70a3042b1/)  
+- LinkedIn: <a href="https://www.linkedin.com/in/gabriel-peres-70a3042b1/" target="_blank" rel="noopener noreferrer">Meu LinkedIn</a>
