@@ -1,0 +1,1143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    font-family: "Jost";
+
+    --white: #FFFFFF;
+
+    --slate-50: #F8FAFC;
+    --slate-300: #CAD5E2;
+
+    --gray-700: #364153;
+
+    --teal-50: #F0FDFA;
+
+    --zinc-800: #27272A;
+    --zinc-900: #18181B;
+
+    --cyan-400: #00D3F3;
+
+    --cyan-500: #00B8DB;
+
+    --blue-600: #155DFC;
+    --blue-700: #1447E6;
+
+    --violet-600: #7F22FE;
+
+    --black: #000;
+
+    --emerald-800: #006045;
+}
+
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cyan-400);
+
+    border-radius: 10px;
+    transition: filter 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    filter: brightness(0.9);
+
+    cursor: pointer;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: "Jockey One";
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2.4rem .8rem;
+
+    gap: .8rem;
+
+    background-color: var(--zinc-800);
+    border-bottom: 2px solid var(--cyan-400);
+
+    height: max-content;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .8rem;
+        width: 100%;
+
+        a {
+            font-size: 1.2rem;
+            color: var(--white);
+        }
+    }
+
+    #icons {
+
+        button {
+            background: none;
+            border: none;
+
+
+            .ph-sun {
+                color: var(--white);
+                font-size: 2rem;
+                cursor: pointer;
+            }
+
+            .ph-moon {
+                color: var(--black);
+                font-size: 2rem;
+                cursor: pointer;
+            }
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+
+    }
+
+
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 2.4rem 2.4rem 2rem;
+
+    width: 100%;
+    height: 100%;
+
+    gap: 2rem;
+
+
+    header {
+        text-align: center;
+
+        p {
+            font-size: 1.8rem;
+            margin-bottom: .4rem;
+
+            span {
+                color: var(--cyan-400);
+                font-family: "Jockey One";
+                text-decoration: underline;
+                font-size: 1.8rem;
+
+            }
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 500;
+        }
+
+    }
+
+    #image-Profile {
+
+        img {
+            width: 14rem;
+            height: 14rem;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    #Buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        width: 100%;
+
+        gap: 2rem;
+
+        #cv-download {
+            background-color: var(--cyan-500);
+            font-weight: 400;
+        }
+
+
+        #cv-download,
+        #WhatsApp {
+            color: var(--white);
+
+            padding: .8rem;
+
+            border: none;
+            border-radius: 1rem;
+
+            span {
+                font-size: 1.4rem;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 1.4rem;
+                color: var(--white);
+            }
+
+            cursor: pointer;
+
+            outline: none;
+
+
+
+        }
+
+        #WhatsApp {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            gap: .4rem;
+
+            background-color: var(--emerald-800);
+
+            .ph-whatsapp-logo {
+                font-size: 1.6rem;
+            }
+        }
+
+
+    }
+
+    #about-me {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        width: 100%;
+
+        padding: 1.6rem 0;
+        gap: 1.6rem;
+
+        border-top: 2px solid var(--cyan-400);
+
+        h2 {
+            font-size: 2.4rem;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+
+    }
+
+    #education {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        width: 100%;
+
+        padding: 1.6rem 0;
+
+        border-top: 2px solid var(--cyan-400);
+
+        gap: 2.4rem;
+
+
+        h2 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        #academicTraining {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            flex-direction: column;
+
+            gap: 1.6rem;
+
+            width: 100%;
+
+            .Training {
+                width: 100%;
+
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+
+                flex-direction: column;
+
+                gap: .6rem;
+
+                p {
+                    font-size: 1.4rem;
+                }
+
+            }
+        }
+
+        #complementaryCourses {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            flex-direction: column;
+
+            gap: 1.6rem;
+
+            width: 100%;
+
+            .Course {
+                width: 100%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                flex-direction: column;
+
+                gap: 1.6rem;
+
+                img {
+                    width: 100%;
+                    border-radius: 1rem;
+                }
+
+                div {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+
+                    flex-direction: column;
+
+                    width: 100%;
+
+                    gap: .6rem;
+
+                    p {
+                        font-size: 1.4rem;
+                    }
+
+                }
+
+            }
+        }
+
+    }
+
+    #skills {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+
+        padding: 1.6rem 0;
+
+        width: 100%;
+
+        gap: 1rem;
+
+        color: var(--white);
+
+        border-top: 2px solid var(--cyan-400);
+
+        h2 {
+            font-size: 2.4rem;
+            font-weight: 400;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            flex-wrap: wrap;
+
+            padding: .8rem;
+            gap: .8rem;
+
+            .tag {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                padding: .8rem;
+                gap: .4rem;
+
+                background-color: var(--gray-700);
+                color: var(--slate-50);
+
+                border-radius: 2rem;
+
+                img {
+                    width: 2rem;
+                    height: 2rem;
+                }
+
+                span {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+    }
+
+    #myProjects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+
+        padding: 1.6rem 0;
+        gap: 1.6rem;
+
+        width: 100%;
+
+        border-top: 2px solid var(--cyan-400);
+
+        color: var(--white);
+
+        h2 {
+            font-size: 2.4rem;
+            font-weight: 400;
+        }
+
+        #allProjects {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            gap: 2.4rem;
+
+            flex-direction: column;
+
+            .project {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                flex-direction: column;
+
+                padding: 1.6rem;
+                gap: 1.6rem;
+
+                width: 100%;
+
+                border-radius: 1rem;
+
+                background-color: var(--zinc-800);
+
+                h3 {
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: .8rem;
+                    object-fit: cover;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 1.6rem;
+                    font-family: "Jockey One";
+                    font-weight: 200;
+                }
+
+                a {
+                    color: var(--white);
+                    font-size: 1.8rem;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+    }
+
+    #Contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+
+        width: 100%;
+
+        padding: 1.6rem 0 0;
+
+        gap: 2.4rem;
+
+        border-top: 2px solid var(--cyan-400);
+
+        h2 {
+            font-size: 2.4rem;
+            font-weight: 400;
+        }
+
+
+        #Contacts {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            flex-direction: column;
+
+            gap: .4rem;
+
+            width: 100%;
+
+            padding-left: 1.6rem;
+
+            #number,
+            #email {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: .8rem;
+
+
+                i {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+
+            }
+
+        }
+
+        #social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+
+            gap: 1.6rem;
+
+            a {
+                text-decoration: none;
+            }
+
+            #facebook,
+            #instagram,
+            #linkedin,
+            #github {
+                width: 3.2rem;
+                height: 3.2rem;
+                padding: 2rem;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                color: var(--white);
+
+                border-radius: 50%;
+
+                i {
+                    font-size: 2.4rem;
+                }
+            }
+
+
+            #facebook {
+                background-color: var(--blue-600);
+            }
+
+            #instagram {
+                background-color: var(--violet-600);
+            }
+
+            #linkedin {
+                background-color: var(--blue-700);
+            }
+
+            #github {
+                background-color: var(--black);
+            }
+
+        }
+
+    }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    border-top: 2px solid var(--cyan-400);
+
+    padding: 2.4rem;
+
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+@media (min-width: 400px) {
+
+    #header {
+        nav a {
+            font-size: 1.6rem;
+        }
+    }
+
+
+    main {
+
+        header {
+            p {
+                font-size: 1.8rem;
+            }
+
+            h1 {
+                font-size: 2.6rem;
+            }
+
+        }
+
+
+        #myProjects {
+
+            #allProjects .project {
+                width: 35rem;
+            }
+
+        }
+
+        #education {
+
+            #complementaryCourses {
+
+                .Course {
+                    img {
+                        width: 35rem;
+                    }
+
+                }
+            }
+
+        }
+
+        #Contact {
+            #Contacts {
+
+                #number,
+                #email {
+
+                    i {
+                        font-size: 2.4rem;
+                    }
+
+                    p {
+                        font-size: 1.7rem;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    footer {
+
+        p {
+            font-size: 1.6rem;
+        }
+
+    }
+
+
+}
+
+
+@media (min-width: 768px) {
+
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #header {
+        nav a {
+            font-size: 1.8rem;
+        }
+
+        #icons {
+
+            button {
+                .ph-sun {
+                    font-size: 2.4rem;
+                }
+
+                .ph-moon {
+                    font-size: 2.4rem;
+                }
+            }
+        }
+
+    }
+
+
+    main {
+
+        padding: 2.4rem 6.2rem 2rem;
+
+        header {
+            p {
+                font-size: 1.8rem;
+            }
+
+            h1 {
+                font-size: 2.6rem;
+            }
+
+        }
+
+        #image-Profile {
+            img {
+                width: 16rem;
+                height: 16rem;
+            }
+        }
+
+        #about-me {
+
+            h2 {
+                font-size: 2.8rem;
+            }
+
+            p {
+                font-size: 1.8rem;
+            }
+
+        }
+
+        #Buttons {
+            gap: 7.2rem;
+        }
+
+        #education {
+
+            h2 {
+                font-size: 2.8rem;
+            }
+
+            #academicTraining {
+
+                .Training {
+
+                    p {
+                        font-size: 1.8rem;
+                    }
+                }
+
+            }
+
+            #complementaryCourses {
+
+                .Course {
+
+                    img {
+                        width: 42rem;
+                    }
+
+                    div {
+
+                        p {
+                            font-size: 1.8rem;
+                        }
+
+                    }
+
+                }
+            }
+
+        }
+
+        #skills {
+
+            h2 {
+                font-size: 2.8rem;
+            }
+
+        }
+
+        #myProjects {
+
+            h2 {
+                font-size: 2.8rem;
+            }
+
+            #allProjects {
+                padding: 1.2rem;
+            }
+
+            #allProjects .project {
+                width: 50rem;
+                height: 54rem;
+
+                h3 {
+                    font-size: 2.4rem;
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 1.8rem;
+                }
+
+                a {
+                    font-size: 2rem;
+                }
+
+            }
+
+        }
+
+        #Contact {
+
+            h2 {
+                font-size: 2.8rem;
+                font-weight: 400;
+            }
+
+            #Contacts {
+
+                #number,
+                #email {
+                    i {
+                        font-size: 2.6rem;
+                    }
+
+                    p {
+                        font-size: 1.8rem;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    footer {
+
+        p {
+            font-size: 1.6rem;
+        }
+
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+
+    #header {
+
+        #icons {
+
+            button {
+                .ph-sun {
+                    font-size: 3.2rem;
+                }
+
+                .ph-moon {
+                    font-size: 3.2rem;
+                }
+            }
+        }
+
+
+
+    }
+
+    main {
+
+        padding: 2.4rem 16.2rem 2rem;
+
+        header {
+            p {
+                font-size: 1.8rem;
+            }
+
+            h1 {
+                font-size: 2.6rem;
+            }
+
+            #icons {
+                .ph-sun {
+                    font-size: 2.4rem;
+                }
+
+                .ph-moon {
+                    font-size: 2.4rem;
+                }
+            }
+
+
+        }
+
+
+        #image-Profile {
+            img {
+                width: 18rem;
+                height: 18rem;
+            }
+        }
+
+        #about-me {
+
+            padding-inline: 2rem;
+
+            h2 {
+                font-size: 2.8rem;
+            }
+
+            p {
+                font-size: 1.8rem;
+            }
+
+        }
+
+        #education {
+
+            #academicTraining {
+
+                .Training {
+                    padding-inline: 2rem;
+
+                    p {
+                        font-size: 1.8rem;
+                    }
+                }
+
+            }
+
+            #complementaryCourses {
+                width: 100%;
+
+                .Course {
+
+                    img {
+                        width: 52rem;
+                    }
+
+                    div {
+                        width: 100%;
+                        padding-inline: 2rem;
+
+
+                        p {
+                            font-size: 1.8rem;
+                        }
+
+                    }
+
+                }
+            }
+
+        }
+
+
+        #skills {
+
+            div {
+
+                .tag {
+
+                    img {
+                        width: 2.2rem;
+                        height: 2.2rem;
+                    }
+
+                    span {
+                        font-size: 2rem;
+                    }
+                }
+            }
+
+        }
+
+
+        #myProjects {
+
+            h2 {
+                font-size: 2.8rem;
+            }
+
+            #allProjects {
+                width: 100%;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
+
+            #allProjects .project {
+
+                h3 {
+                    font-size: 2.4rem;
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 1.8rem;
+                }
+
+                a {
+                    font-size: 2rem;
+                }
+
+            }
+
+        }
+
+        #Contact {
+
+            h2 {
+                font-size: 2.8rem;
+                font-weight: 400;
+            }
+
+            #Contacts {
+
+                #number,
+                #email {
+                    i {
+                        font-size: 2.6rem;
+                    }
+
+                    p {
+                        font-size: 1.8rem;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    footer {
+
+        p {
+            font-size: 1.6rem;
+        }
+
+    }
+
+
+}
+
+@media (min-width: 1600px) {
+
+    footer {
+
+        p {
+            font-size: 1.8rem;
+        }
+
+    }
+
+
+}
+
+html.light .ph-sun,
+html:not(.light) .ph-moon {
+    display: none;
+}
+
+html.light {
+    background-color: var(--white);
+    color: var(--zinc-900);
+
+    #header {
+        background-color: var(--white);
+
+        a {
+            color: var(--zinc-900);
+        }
+    }
+
+    .Course {
+
+        img {
+            box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.55);
+            border: 1px solid var(--black);
+        }
+
+    }
+}
+
+
+html:not(.light) {
+    background-color: var(--zinc-900);
+    color: var(--white);
+
+    #header {
+        background-color: var(--zinc-800);
+
+        a {
+            color: var(--white);
+        }
+    }
+
+}
