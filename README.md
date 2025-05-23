@@ -1,27 +1,38 @@
-
-# Portfólio
+# 🚀 Portfólio - Gabriel Peres
 
 Seja bem-vindo(a) ao meu portfólio! Aqui você encontrará informações sobre mim, minha formação, habilidades, projetos e formas de contato.
 
-## 🚀 Tecnologias Utilizadas
+---
 
-- HTML
-- CSS
-- JavaScript
+## 🛠️ Tecnologias e Ferramentas
 
-## 📄 Seções do Portfólio
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- **Sobre**
-- **Formação**
-- **Habilidades**
-- **Projetos**
-- **Contatos**
+---
 
-## 🔗 Acesse
+## 🗂️ Seções do Portfólio
 
-👉 <a href="https://www.gabrielperes.site/" target="_blank" rel="noopener noreferrer">Acesse meu portfólio</a>
+- 🔹 **Sobre**
+- 🎓 **Formação**
+- 💡 **Habilidades**
+- 🧠 **Projetos**
+- 📞 **Contatos**
 
-## 📧 Contato
+---
 
-- Email: gperes020@gmail.com  
-- LinkedIn: <a href="https://www.linkedin.com/in/gabriel-peres-70a3042b1/" target="_blank" rel="noopener noreferrer">Meu LinkedIn</a>
+## 🌐 Acesse Meu Portfólio
+
+👉 [gabrielperes.site](https://www.gabrielperes.site/)
+
+---
+
+## 📫 Contato
+
+- 📧 Email: gperes020@gmail.com
+- 💼 LinkedIn: [Gabriel Peres](https://www.linkedin.com/in/gabriel-peres-70a3042b1/)
+
+---
+
+## ⭐ Me apoie com um ⭐ nesse repositório se você curtiu!
