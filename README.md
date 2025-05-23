@@ -19,7 +19,7 @@ Seja bem-vindo(a) ao meu portfólio! Aqui você encontrará informações sobre 
 
 ## 🔗 Acesse
 
-👉 [Acesse meu portfólio](www.gabrielperes.site)
+👉 [Acesse meu portfólio](https://www.gabrielperes.site/)
 
 ## 📧 Contato
 
