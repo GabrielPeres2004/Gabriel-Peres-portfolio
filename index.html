@@ -2,22 +2,25 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Peres</title>
 
-    <link rel="stylesheet" href="./style.css">
-
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
 
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="./js/toggleTheme.js" defer type="module"></script>
+
 </head>
 
 <body>
@@ -77,11 +80,13 @@
 
         </div>
 
-        <section id="about-me">
+        <section id="about-me" data-aos="zoom" data-aos-delay="800">
 
             <h2>Sobre mim</h2>
 
-            <p>Sou Gabriel Peres, estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento
+            <p data-aos="fade-left" data-aos-offset="200">Sou Gabriel Peres, estudante de Análise e Desenvolvimento de
+                Sistemas, com foco em
+                desenvolvimento
                 front-end. Tenho experiência com React.js, Vite e Styled Components, criando interfaces modernas,
                 rápidas e responsivas. Também utilizo o Figma para prototipar telas e oferecer uma boa experiência para
                 o usuário.
@@ -96,7 +101,7 @@
 
         </section>
 
-        <section id="education">
+        <section id="education" data-aos="zoom" data-aos-offset="500">
 
             <div id="academicTraining">
                 <h2>
@@ -118,7 +123,7 @@
                 </h2>
 
                 <div class="Course">
-                    <img src="./assets/certificado.png" alt="Certificado">
+                    <img src="./assets/certificado.png" alt="Certificado" data-aos="fade-left">
 
                     <div>
                         <p>Rocketseat Explorer – Formação Full Stack</p>
@@ -138,7 +143,7 @@
 
         </section>
 
-        <section id="skills">
+        <section id="skills" data-aos="zoom" data-aos-offset="250">
             <h2>Minhas Habilidades</h2>
 
             <div>
@@ -199,14 +204,14 @@
 
         </section>
 
-        <section id="myProjects">
+        <section id="myProjects" data-aos="zoom" data-aos-offset="250">
 
             <h2>Meus projetos</h2>
 
 
             <div id="allProjects">
 
-                <div class="project">
+                <div class="project" data-aos="fade-up" data-aos-offset="300">
                     <h3>Food Explorer</h3>
 
                     <img src="./assets/foodExplorer.png" alt="Imagem do projeto">
@@ -220,7 +225,7 @@
                     <a target="_blank" href="https://github.com/GabrielPeres2004/Web-Food-Explorer">Link do Github</a>
                 </div>
 
-                <div class="project">
+                <div class="project" data-aos="fade-up" data-aos-offset="300">
                     <h3>Rocket Movies</h3>
 
                     <img src="./assets/rocketMovies.png" alt="Imagem do projeto">
@@ -239,7 +244,7 @@
                         Github</a>
                 </div>
 
-                <div class="project">
+                <div class="project" data-aos="fade-up" data-aos-offset="300">
                     <h3>Git Favorites</h3>
 
                     <img src="./assets/GitFav.png" alt="Imagem do projeto">
@@ -260,7 +265,7 @@
 
         </section>
 
-        <section id="Contact">
+        <section id="Contact" data-aos="zoom" data-aos-offset="250" data-aos-once="true">
 
             <h2>
                 Contato
@@ -270,12 +275,12 @@
 
                 <div id="number">
                     <i class="ph ph-phone"></i>
-                    <p>Número: (32) 999405614</p>
+                    <p>Número: <span>(32) 999405614</span></p>
                 </div>
 
                 <div id="email">
                     <i class="ph ph-envelope-simple"></i>
-                    <p>E-mail: Gperes020@gmail.com</p>
+                    <p>E-mail: <a href="mailto:Gperes020@gmail.com">Gperes020@gmail.com</a> </p>
                 </div>
 
             </div>
@@ -312,6 +317,16 @@
 
     </footer>
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init({
+                duration: 2000,
+            });
+        });
+    </script>
 </body>
 
 </html>

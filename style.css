@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 :root {
@@ -35,6 +36,11 @@
     --emerald-800: #006045;
 }
 
+
+html,
+body {
+    overflow-x: hidden;
+}
 
 ::-webkit-scrollbar {
     width: 2px;
@@ -543,6 +549,17 @@ main {
                 p {
                     font-size: 1.6rem;
                 }
+
+                span {
+                    text-decoration: underline;
+                }
+
+                a {
+                    text-decoration: underline;
+                    cursor: pointer;
+                    color: var(--white);
+                }
+
 
             }
 
