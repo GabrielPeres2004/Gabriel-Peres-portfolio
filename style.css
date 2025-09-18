@@ -416,6 +416,11 @@ main {
                     height: 2rem;
                 }
 
+                #java {
+                    width: 3.2rem;
+                    height: 3.2rem;
+                }
+
                 span {
                     font-size: 1.4rem;
                 }
